@@ -1,0 +1,11 @@
+{
+  "env": {
+    "jasmine": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-unused-vars": "off",
+    "no-compare-neg-zero": "off",
+    "no-useless-escape": "off"
+  }
+}

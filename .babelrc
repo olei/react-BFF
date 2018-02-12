@@ -1,0 +1,19 @@
+{
+  "presets": ["react", "es2015", "stage-2"],
+  "plugins": ["transform-runtime", "transform-decorators-legacy", "add-module-exports", ["import", { "libraryName": "antd-mobile", "libraryDirectory": "components" }]],
+  "env": {
+    "development": {
+      "presets": [],
+      "plugins": [
+          ["antd", { "style": "css", "libraryName": "antd-mobile" }]
+      ]
+    },
+    "production": {
+      "plugins": [
+        ["antd", { "style": "css", "libraryName": "antd-mobile" }]
+      ]
+    }
+  }
+}
+
+
