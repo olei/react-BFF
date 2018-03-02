@@ -1,6 +1,6 @@
 ## About
 
-基于React->Node->Mongo技术栈的类CNode社区同构单页Web应用
+基于React->Node->Mongo技术栈同构单页Web应用
 
 ## 用到的技术栈
 <ul>
