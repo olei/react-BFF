@@ -24,3 +24,22 @@
 
 <li>mongodb/mongoose 提供数据库管理</li>
 </ul>
+
+### 编译
+```
+npm run build
+```
+### 运行Node server
+#### 访问3000端口
+```
+npm run server-dev
+```
+### 运行FE server
+```
+npm run dev
+```
+### 线上运行
+#### 访问80端口
+```
+npm run start
+```
